@@ -11,4 +11,5 @@ public class Producto
     public decimal Precio { get; set; }
     
     public int Stock { get; set; }
+    public string Categoria { get; set; } = string.Empty;
 }
