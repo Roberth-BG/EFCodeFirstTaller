@@ -11,4 +11,5 @@ public class AppDbContext : DbContext
     }
 
     public DbSet<Producto> Productos { get; set; } = null!;
+    public DbSet<Paciente> Pacientes { get; set; } = null!;
 }
